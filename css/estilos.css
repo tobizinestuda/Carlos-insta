@@ -1,0 +1,348 @@
+/* Estilos gerais */
+body {
+    background-color: #E9E9E9;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.div1 {
+    background-color: white;
+    position: absolute;
+    top: 70px;
+    left: 775px;
+}
+
+.img1 {
+    width: 150px;
+    height: 150px;
+}
+
+.div2 {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+}
+
+.img1 {
+    width: 550px;
+    height: 550px;
+}
+
+.img2 {
+    border-radius: 200px;
+    width: 130px;
+}
+
+.div3 {
+    background-color: white;
+    width: 500px;
+    height: 330px;
+    position: absolute;
+    top: 60px;
+    left: 625px;
+    border: solid 1px black;
+}
+
+.div4 {
+    position: absolute;
+    top: 130px;
+    left: 810px;
+}
+
+.div5 {
+    position: absolute;
+    top: 270px;
+    left: 780px;
+    background-color: #1399e5;
+    width: 195px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.texto1 {
+    color: white;
+}
+
+.div6 {
+    position: absolute;
+    top: 330px;
+    left: 825px;
+    text-align: center;
+}
+
+.texto2 {
+    color: #1399e5;
+}
+
+.div7 {
+    background-color: white;
+    border: solid 1px black;
+    width: 500px;
+    height: 70px;
+    position: absolute;
+    top: 415px;
+    left: 625px;
+    padding: 10px;
+    text-align: center;
+}
+
+.texto3 {
+    color: #A9A9A9;
+}
+
+.texto4 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+b {
+    color: #1399e5;
+}
+
+.ou {
+    color: #A9A9A9;
+}
+
+.cavalheiro {
+    color: #A9A9A9;
+}
+
+.div8 {
+    position: absolute;
+    top: 490px;
+    left: 800px;
+    text-align: center;
+}
+
+.div9 {
+    position: absolute;
+    top: 540px;
+    left: 650px;
+    text-align: center;
+}
+
+.apple {
+    width: 180px;
+    height: 55px;
+}
+
+.div10 {
+    position: absolute;
+    top: 540px;
+    left: 935px;
+    text-align: center;
+}
+
+.google {
+    width: 180px;
+    height: 55px;
+}
+
+.app {
+    color: black;
+    font-size: 20px;
+}
+
+/* Responsividade */
+
+/* Para telas menores que 1024px */
+@media (max-width: 1024px) {
+    .div1 {
+        top: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .img1 {
+        width: 100px;
+        height: 100px;
+    }
+
+    .div2 .img1 {
+        width: 400px;
+        height: 400px;
+    }
+
+    .div3 {
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .img2 {
+        width: 100px;
+    }
+
+    .div4 {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .div5 {
+        top: 250px;
+        width: 150px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .div7 {
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 370px;
+    }
+
+    .div9 {
+        top: 480px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .div10 {
+        top: 480px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .apple, .google {
+        width: 150px;
+    }
+}
+
+/* Para telas menores que 768px (tablets) */
+@media (max-width: 768px) {
+    .div1 {
+        top: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+    }
+
+    .img1 {
+        width: 80px;
+        height: 80px;
+    }
+
+    .div2 .img1 {
+        width: 250px;
+        height: 250px;
+    }
+
+    .div3 {
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 100px;
+        height: auto;
+    }
+
+    .img2 {
+        width: 80px;
+        height: 80px;
+    }
+
+    .div4 {
+        top: 160px;
+    }
+
+    .div5 {
+        top: 300px;
+        width: 120px;
+    }
+
+    .div7 {
+        width: 90%;
+        top: 400px;
+    }
+
+    .div9 {
+        top: 550px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .div10 {
+        top: 550px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .apple, .google {
+        width: 120px;
+    }
+}
+
+/* Para telas menores que 480px (celulares) */
+@media (max-width: 480px) {
+    .div1 {
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60px;
+    }
+
+    .img1 {
+        width: 60px;
+        height: 60px;
+    }
+
+    .div2 .img1 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .div3 {
+        width: 95%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 80px;
+    }
+
+    .img2 {
+        width: 60px;
+        height: 60px;
+    }
+
+    .div4 {
+        top: 200px;
+    }
+
+    .div5 {
+        top: 250px;
+        width: 100px;
+    }
+
+    .div7 {
+        width: 95%;
+        top: 350px;
+    }
+
+    .div9 {
+        top: 400px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .div10 {
+        top: 400px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .apple, .google {
+        width: 100px;
+    }
+}
+@media (max-width: 912px) {
+    .images {
+        display: none;
+    }
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .login {
+        margin-top: 100px;
+        margin-left: 200px;
+    }
+}
